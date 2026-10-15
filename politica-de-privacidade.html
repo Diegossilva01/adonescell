@@ -2,43 +2,33 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex">
-  <title>Política de Privacidade | ADONESCELL</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#0a63ff">
+  <title>Mensalidade expirada | ADONESCELL</title>
   <style>
-    *{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:#f7fbff;color:#14213b}
-    .wrap{width:min(820px,calc(100% - 32px));margin:60px auto;background:#fff;border:1px solid #dce8f5;border-radius:24px;padding:38px}
-    a{color:#0a63ff;text-decoration:none;font-weight:700}h1{font-size:38px;letter-spacing:-.04em;margin:22px 0 12px}
-    h2{font-size:19px;margin-top:30px}.muted,p,li{color:#66738a;line-height:1.75;font-size:14px}.back{display:inline-block}
-    @media(max-width:640px){.wrap{margin:20px auto;padding:24px}h1{font-size:31px}}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:24px;background:#f1f5fc;color:#13223b;font-family:Arial,sans-serif}
+    main{width:100%;max-width:480px;padding:40px 28px;text-align:center;background:#fff;border:1px solid #dfe7f4;border-radius:24px;box-shadow:0 20px 60px #13223b12}
+    .brand{margin:0 0 28px;color:#0a63ff;font-weight:800;letter-spacing:2px;font-size:14px}
+    .icon{display:grid;place-items:center;margin:0 auto 22px;width:64px;height:64px;border-radius:50%;background:#fff3dc;color:#996000;font-size:32px;font-weight:bold}
+    h1{margin:0 0 16px;font-size:clamp(25px,6vw,32px);line-height:1.15}
+    p{margin:0 0 14px;font-size:16px;line-height:1.6;color:#52627c}
+    .phone{display:inline-block;margin:4px 0 26px;color:#13223b;font-size:23px;font-weight:bold;text-decoration:none}
+    .button{display:block;padding:16px;background:#0a63ff;color:white;border-radius:12px;text-decoration:none;font-size:16px;font-weight:bold}
+    .button:hover{background:#084fc9}
+    a:focus-visible{outline:3px solid #996000;outline-offset:5px}
+    @media(max-width:360px){main{padding:32px 18px}.phone{font-size:21px}}
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <a class="back" href="index.html">← Voltar para o site</a>
-    <h1>Política de Privacidade</h1>
-    <p class="muted">Última atualização: setembro de 2026.</p>
-
-    <h2>1. Dados enviados pelo usuário</h2>
-    <p>Ao solicitar um orçamento, você pode fornecer nome, telefone, modelo do aparelho e informações sobre o defeito. Esses dados são utilizados para atendimento e elaboração do orçamento.</p>
-
-    <h2>2. Contato pelo WhatsApp</h2>
-    <p>Ao utilizar o botão de orçamento, as informações preenchidas podem ser encaminhadas ao WhatsApp da ADONESCELL para continuidade do atendimento.</p>
-
-    <h2>3. Dados de navegação</h2>
-    <p>O site pode utilizar parâmetros de campanha e ferramentas de medição para entender a origem dos acessos e melhorar campanhas de publicidade. Caso sejam instaladas ferramentas adicionais de análise ou publicidade, esta política deverá ser atualizada.</p>
-
-    <h2>4. Compartilhamento</h2>
-    <p>Os dados de orçamento não devem ser comercializados. Poderão ser tratados por prestadores necessários ao funcionamento do atendimento, hospedagem e comunicação.</p>
-
-    <h2>5. Solicitações do titular</h2>
-    <p>Você pode solicitar informações sobre seus dados ou pedir correção e exclusão por meio dos canais oficiais de atendimento da ADONESCELL.</p>
-
-    <h2>6. Alterações desta política</h2>
-    <p>Esta política pode ser atualizada conforme mudanças no site, nas ferramentas utilizadas ou nas práticas de atendimento.</p>
+  <main aria-labelledby="notice-title">
+    <div class="brand">ADONESCELL</div>
+    <div class="icon" aria-hidden="true">!</div>
+    <h1 id="notice-title">Mensalidade expirada</h1>
+    <p>Por gentileza, entre em contato com o número abaixo para regularizar a mensalidade do sistema.</p>
+    <a class="phone" href="tel:+5511977030517">(11) 97703-0517</a>
+    <a class="button" href="https://wa.me/5511977030517?text=Ol%C3%A1%21%20Gostaria%20de%20regularizar%20a%20mensalidade%20do%20sistema%20ADONESCELL.">Entrar em contato pelo WhatsApp</a>
   </main>
 </body>
 </html>
